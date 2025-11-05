@@ -1,0 +1,9 @@
+span {
+    display: block;
+}
+nav {
+    display: flex;
+}
+nav a:hover {
+    border: 1px solid black;
+}
