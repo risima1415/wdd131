@@ -1,13 +1,15 @@
 body {
     display: grid;
     height: 100vh;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-weight: 700;
 
 }
-#course_title {
+#course-title {
     display: block;
     text-align: center;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 400;
 }
 nav ul {
     list-style: none;
@@ -24,6 +26,9 @@ nav a {
 nav a:hover {
     border: 1px solid black;
 }
+header {
+    background-color: aliceblue;
+}
 main {
     max-width: 900px;
     margin: 0 auto;
@@ -39,6 +44,10 @@ main h1 {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     text-align: center;
+}
+footer p {
+    background-color: aliceblue;
+    align-items: center;
 }
 
 
