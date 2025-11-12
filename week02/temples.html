@@ -8,22 +8,95 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles/temples.css">
     <link rel="stylesheet" href="styles/temples-large.css">
-    <script src="temples.js" defer></script>
+    <script src="scripts/temples.js" defer></script>
 </head>
 <body>
     <header>
         <div class="site-title">Temple Album</div>
+        <button class="hamburger" aria-label="Toggle menu">
+            ☰
+        </button>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="old.html">Old</a></li>
-                <li><a href="new.html">New</a></li>
-                <li><a href="large.html">Large</a></li>
-                <li><a href="small.html">Small</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
             </ul>
         </nav>
     </header>
-    <main></main>
-    <footer></footer> 
+    <main>
+        <h1>Temples</h1>
+        <section class="gallery" aria-label="Temple photo gallery">
+            <figure>
+                <img src="images/durban-temple.jpg" alt="Durban Temple">
+                <figcaption>
+                    <span class="temple-name">Durban Temple</span>
+                    <span class="location">Durban, South Africa</span>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="#" alt="Johannesburg Temple">
+                <figcaption>
+                    <span class="temple-name">Johannesburg Temple</span>
+                    <span class="location">Johannesburg, South Africa</span>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="#" alt="Harare Temple">
+                <figcaption>
+                    <span class="temple-name">Harare Temple</span>
+                    <span class="location">Harare, Zimbabwe</span>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="#" alt="Salt Lake Temple">
+                <figcaption>
+                    <span class="temple-name">Salt Lake Temple</span>
+                    <span class="location">Salt Lake, Utah</span>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="#" alt="Auckland Temple">
+                <figcaption>
+                    <span class="temple-name">Auckland Temple</span>
+                    <span class="location">Auckland, New Zealand</span>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="#" alt="Accra Ghana Temple">
+                <figcaption>
+                    <span class="temple-name">Accra Ghana Temple</span>
+                    <span class="location">Accra, Ghana</span>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="#" alt="Helsinki Finland Temple">
+                <figcaption>
+                    <span class="temple-name">Helsinki Finlad Temple</span>
+                    <span class="location">Espoo, Uusimaa, Finland</span>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="#" alt="Lisbon Portugal Temple">
+                <figcaption>
+                    <span class="temple-name">Lisbon Portugal Temple</span>
+                    <span class="location">Lisbon, Portugal</span>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="#" alt="Paris France Temple">
+                <figcaption>
+                    <span class="temple-name">Paris France Temple</span>
+                    <span class="location">Le Chesnay, France</span>
+                </figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Risima Maluleke - South Africa</p>
+        <p>Last Modified:<span id="lastModified"></span></p>
+    </footer> 
 </body>
 </html>
