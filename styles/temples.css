@@ -33,7 +33,7 @@ nav a:hover {
     color: rgb(199, 171, 14);
 }
 .hamburger {
-    display: none;
+    display: block;
     font-size: 1.5rem;
     border: none;
     color: white;
@@ -41,9 +41,6 @@ nav a:hover {
 }
 nav ul.show {
     display: flex;
-}
-.hamburger {
-    display: block;
 }
 main {
     max-width: 1200px;
