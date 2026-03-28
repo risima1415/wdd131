@@ -5,25 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta name="description" content="Responsive site with an album of my country and it's attractions and importance.">
     <meta name="author" content="Risima Maluleke">
-    <title>Kempton Park</title>
+    <title>South Africa</title>
     <link rel="stylesheet" href="styles/place.css">
     <script src="scripts/place.js" defer></script>
 </head>
 <body>
-    <header>
-        Kempton Park
-    </header>
-    <main>
+
+<header>
+    <h1>South Africa</h1>
+</header>
+
+<main>
+
+    <section class="hero">
         <picture>
-            <source 
-                srcset="images/kempton_big.webp" 
-                media="(min-width: 1024px)"
-                type="image/webp">
-            <img 
-                src="images/kempton_small.webp" 
-                type="image/webp"
-                alt="Hero image representing the main theme of the webpage">
+            <source srcset="images/pretoria.jpg" media="(min-width: 768px)">
+            <img src="images/cape_town.jpg" alt="South Africa Landscape">
         </picture>
-    </main>
+    </section>
+
+    <section class="data">
+        <h2>Data</h2>
+        <p>Capital: Pretoria</p>
+        <p>Population: 60 Million</p>
+        <p>Language: English, Zulu, Afrikaans</p>
+        <p>Currency: Rand</p>
+    </section>
+
+    <section class="weather">
+        <h2>Weather</h2>
+        <p>Temperature: <span id="temperature">8</span>°C</p>
+        <p>Wind Speed: <span id="windSpeed">10</span> km/h</p>
+        <p>Wind Chill: <span id="windChill"></span></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; <span id="year"></span> | Last Modified: <span id="lastModified"></span></p>
+</footer>
+
 </body>
 </html>
