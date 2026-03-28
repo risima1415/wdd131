@@ -23,6 +23,11 @@ section {
     padding: 1rem;
 }
 
+.visually-hidden {
+    position: absolute;
+    left: -9999px;
+}
+
 footer {
     background: #333;
     color: white;
