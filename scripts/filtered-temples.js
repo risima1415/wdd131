@@ -128,8 +128,6 @@ temples.forEach(temple => {
 
     container.appendChild(card);
 
-const container = document.getElementById("temple-container");
-
 
 function displayTemples(filteredTemples) {
   container.innerHTML = ""; 
@@ -139,11 +137,11 @@ function displayTemples(filteredTemples) {
     card.classList.add("temple-card");
 
     card.innerHTML = `
-      <h2>${temple.name}</h2>
+      <h2>${temple.templeName}</h2>
       <p>Location: ${temple.location}</p>
       <p>Dedicated: ${temple.dedicated}</p>
       <p>Area: ${temple.area.toLocaleString()} sq ft</p>
-      <img src="${temple.imageUrl}" alt="${temple.name}" loading="lazy">
+      <img src="${temple.imageUrl}" alt="${temple.templeName}" loading="lazy">
     `;
 
     container.appendChild(card);
