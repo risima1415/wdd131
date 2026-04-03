@@ -98,37 +98,6 @@ const temples = [
   // Add more temple objects here...
 ];
 
-const container = document.getElementById("temple-container");
-temples.forEach(temple => {
-    const card = document.createElement("div");
-    card.classList.add("temple-card");
-
-    const name = document.createElement("h2");
-    name.textContent = temple.name;
-
-    const location = document.createElement("p");
-    location.textContent = `Location: ${temple.location}`;
-
-    const dedicated = document.createElement("p");
-    dedicated.textContent = `Dedicated: ${temple.dedicated}`;
-
-    const area = document.createElement("p");
-    area.textContent = `Area: ${temple.area.toLocaleString()} sq ft`;
-
-    const img = document.createElement("img");
-    img.src = temple.imageUrl;
-    img.alt = temple.name;
-    img.loading = "lazy";
-
-    card.appendChild(name);
-    card.appendChild(location);
-    card.appendChild(dedicated);
-    card.appendChild(area);
-    card.appendChild(img);
-
-    container.appendChild(card);
-
-
 function displayTemples(filteredTemples) {
   container.innerHTML = ""; 
 
@@ -176,5 +145,5 @@ document.getElementById("small").addEventListener("click", () => {
   );
 });
 
-displayTemples(temples);    
-});
+displayTemples(temples);
+
