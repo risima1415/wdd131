@@ -98,6 +98,8 @@ const temples = [
   // Add more temple objects here...
 ];
 
+const container = document.getElementById("temple-container");
+
 function displayTemples(filteredTemples) {
   container.innerHTML = ""; 
 
