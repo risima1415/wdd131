@@ -79,21 +79,21 @@ const temples = [
     location: "Johannesburg, South Africa",
     dedicated: "1985, August 25",
     area: 19184,
-    imageUrl: "https://www.churchofjesuschrist.org/temples/photo-gallery/johannesburg-south-africa-temple?lang=eng"
+    imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/johannesburg-south-africa/400x250/johannesburg-south-africa-temple-lds-83166-wallpaper.jpg"
   },
   {
     templeName: "Bern Switzerland",
     location: "Zollikofen, Bern, Switzerland",
     dedicated: "1955, September 11",
     area: 35546,
-    imageUrl: "https://www.churchofjesuschrist.org/temples/photo-gallery/bern-switzerland-temple?lang=eng"
+    imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/400x250/bern-switzerland-temple-lds-1053202-wallpaper.jpg"
   },
   {
     templeName: "Bogota Columbia",
     location: "Bogota, Distrito Capital, Columbia",
     dedicated: "1999, April 24",
     area: 53500,
-    imageUrl: "https://www.churchofjesuschrist.org/temples/photo-gallery/bogota-colombia-temple?lang=eng"
+    imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bogota-colombia/400x250/bogota-colombia-mormon-temple-856490-wallpaper.jpg"
   }
   // Add more temple objects here...
 ];
